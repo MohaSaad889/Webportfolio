@@ -1,0 +1,263 @@
+
+<head>
+  <title>My Personal Portfolio</title>
+  <style>
+
+    /* reset default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* add some basic styling */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+    }
+    /*header styling*/
+    header {
+      background-color: #333333;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      
+    }
+    /*styling for the links*/
+    header a {
+      color: white;
+      text-decoration: none;
+      margin-right: 1rem;
+    }
+    header a:hover {
+      color: #cccccc;
+    }
+    /*adding spacing and color to main section*/
+    main {
+      padding: 1rem;
+    }
+    /*gives the sections on the main a border*/
+    section {
+      border: 1px solid #cccccc;
+      margin-bottom: 1rem;
+      padding: 1rem;
+    }
+
+    /*footer styling*/
+    .footer {
+      background-color: #333333;
+      color: white;
+      padding: 2em;
+      display: flex;
+      justify-content: space-between;
+    }
+    .footer .icons a {
+      font-size: 1.3em;
+      padding: 0 30px 0 0;
+      color: white ;
+    }
+
+  </style>
+</head>
+
+<style>
+  /* Add some additional styles */
+  /* Give the header a fixed position and make it smaller */
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* Style the header navigation */
+  header nav {
+    display: flex;
+    align-items: center;
+  }
+  header nav ul {
+    display: flex;
+    list-style-type: none;
+  }
+  header nav ul li {
+    margin-right: 20px;
+  }
+  /* Give the main section some additional padding */
+  main {
+    padding: 60px 1rem 1rem 1rem;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+
+  .Card {
+    background-color: rgb(220, 220, 220);
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease ;
+  }
+
+  .Card:hover{
+    transform: scale(1.1);
+
+  }
+
+  /* Style the section headings */
+  section h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 600;
+
+  }
+  /* Style the project list items */
+  section #projects li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  /* Style the project links */
+  section #projects a {
+    color: #333333;
+    text-decoration: none;
+    margin-left: 1rem;
+    transition: all 0.2s ease-in-out;
+  }
+  section #projects a:hover {
+    color: #007bff;
+  }
+  /* Add some styling to the contact form */
+  section #contact label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  section #contact input[type="text"],
+  section #contact input[type="email"],
+  section #contact textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+  }
+  section #contact input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  section #contact input[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+</style>
+
+<head>
+  <title>My Personal Portfolio</title>
+  <style>
+    /* reset default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    /* add some basic styling */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+    }
+    /*header styling*/
+    header {
+      background-color: #333333;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    /*styling for the links*/
+    header a {
+      color: white;
+      text-decoration: none;
+      margin-right: 1rem;
+    }
+    header a:hover {
+      color: #cccccc;
+    }
+    /*adding spacing and color to main section*/
+    main {
+      padding: 1rem;
+    }
+    /*gives the sections on the main a border*/
+    section {
+      border: 1px solid #cccccc;
+      margin-bottom: 1rem;
+      padding: 1rem;
+    }
+    /*footer styling*/
+    footer {
+      background-color: #333333;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    /* change the color of the h2 title */
+    h2 {
+      color: #4CAF50;
+    }
+    /* adds a background color to the form */
+    form {
+      background-color: #f2f2f2;
+      padding: 1rem;
+    }
+    /* change the style of the label and input fields */
+    label, input, textarea {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+    }
+    /* centers the submit button */
+    input[type="submit"] {
+      margin: 0 auto;
+      display: block;
+    }
+    /* adds a hover effect to the submit button */
+    input[type="submit"]:hover {
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+    }
+    /* Add some styles to the project section */
+    #projects ul {
+      list-style-type: none;
+    }
+    #projects li {
+      margin-bottom: 1rem;
+    }
+    #projects h3 {
+      font-size: 1.2rem;
+    }
+    /* Add some styles to the experience section */
+    #experience ul {
+      list-style-type: none;
+    }
+    #experience li {
+      margin-bottom: 1rem;
+    }
+    #experience h3 {
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
